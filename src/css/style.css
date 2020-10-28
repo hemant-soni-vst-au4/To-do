@@ -3,5 +3,14 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  height: 100%; }
+
 body {
-  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  height: 100%; }
+
+.aside {
+  background-color: #eee;
+  font-size: 1.3rem; }

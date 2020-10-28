@@ -16,14 +16,43 @@
 </head>
 
 <body>
-  <div class="row">
-    <aside class="col-4">Aside</aside>
+  <div class="row h-100 bg-light">
+    <!-- ========= Aside ========== -->
+    <aside class="col-4 aside">
+      <div class="container p-5 ">
+        <ul class="list-unstyled">
+          <li class="aside__inbox py-3"><i class="fas fa-inbox mr-2"></i>Inbox <span
+              class="aside__inbox-count adge badge-primary badge-pill">1</span>
+          </li>
+          <li class="aside__today py-3"><i class="fas fa-calendar-day mr-2"></i>Today <span
+              class="aside__today-count adge badge-primary badge-pill">1</span>
+          </li>
+          <li class="aside__upcoming pt-3"><i class="far fa-calendar-alt mr-2"></i>Upcoming
+            <span class="aside__upcoming-count adge badge-primary badge-pill">1</span></li>
+        </ul>
+      </div>
+      <!-- =========== Projects ============= -->
+      <div class="accordion ">
+        <div class="text-left aside__project ml-4 pl-2" type='button' data-toggle="collapse" data-target="#collapseOne">
+          <i class="fas fa-chevron-right mx-2"></i> Projects
+        </div>
+        <div id="collapseOne" class="collapse show">
+          <div class="custom-control custom-radio ml-5 my-3">
+            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio1">Microverse</label>
+          </div>
+          <div class="custom-control custom-radio ml-5 mt-3">
+            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2">Microsoft</label>
+          </div>
+          <div class="project__add ml-5 mt-3 text-muted">
+            <i class="fas fa-plus mr-1"></i> Add Project
+          </div>
+        </div>
+      </div>
+    </aside>
     <main class="col-8">Main</main>
   </div>
-
-
-
-
 
 
 
