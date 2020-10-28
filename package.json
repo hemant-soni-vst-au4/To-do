@@ -33,6 +33,7 @@
     "webpack-dev-server": "3.2.1"
   },
   "scripts": {
+    "compile": "node-sass src/scss/main.scss src/css/style.css -w",
     "start": "webpack --watch",
     "prebuild": "rimraf ./dist && mkdir dist",
     "build": "webpack",
