@@ -1,0 +1,19 @@
+
+
+.header{
+  h3{
+    font-weight: 700;
+  }
+  &__logos > *{
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    color: grey;
+    cursor: pointer;
+  }
+}
+
+.column{
+  width: 20rem;
+  min-width: 250px;
+}
+

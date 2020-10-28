@@ -6,11 +6,33 @@
 html {
   height: 100%; }
 
+.card {
+  border-radius: 8px; }
+
 body {
-  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  overflow: hidden;
-  height: 100%; }
+  font-family: "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  min-width: fit-content;
+  overflow-y: scroll; }
+
+.fa-plus {
+  color: #db4c3f; }
 
 .aside {
   background-color: #eee;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  min-width: 22rem; }
+
+.header h3 {
+  font-weight: 700; }
+
+.header__logos > * {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  color: grey;
+  cursor: pointer; }
+
+.column {
+  width: 20rem;
+  min-width: 250px; }

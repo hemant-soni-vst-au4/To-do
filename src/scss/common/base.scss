@@ -9,6 +9,11 @@ html{
   height: 100%;
 }
 
+.card{
+  border-radius: 8px;
+} 
+
+
 $color-orange: #db4c3f;
 $color-secondary-light: #ffb900;
 $color-secondary-dark: #ff7730;
@@ -17,11 +22,18 @@ $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
 
 $color-grey-light: #eee;
+$color-grey: #7a7a7a;
 
 body {
-  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  overflow: hidden;
+  font-family: "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
   height: 100%;
+  width: 100%;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+.fa-plus{
+  color: $color-orange;
 }
 
 

@@ -12,22 +12,23 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-  <div class="row h-100 bg-light">
+  <div class="d-flex h-100 bg-light">
     <!-- ========= Aside ========== -->
-    <aside class="col-4 aside">
+    <aside class=" aside">
       <div class="container p-5 ">
         <ul class="list-unstyled">
-          <li class="aside__inbox py-3"><i class="fas fa-inbox mr-2"></i>Inbox <span
+          <li class="aside__inbox py-3"><i class="fas fa-inbox mr-2 text-primary"></i>Inbox <span
               class="aside__inbox-count adge badge-primary badge-pill">1</span>
           </li>
-          <li class="aside__today py-3"><i class="fas fa-calendar-day mr-2"></i>Today <span
+          <li class="aside__today py-3 "><i class="fas fa-calendar-day mr-2 text-success"></i>Today <span
               class="aside__today-count adge badge-primary badge-pill">1</span>
           </li>
-          <li class="aside__upcoming pt-3"><i class="far fa-calendar-alt mr-2"></i>Upcoming
+          <li class="aside__upcoming pt-3"><i class="far fa-calendar-alt mr-2 text-primary"></i>Upcoming
             <span class="aside__upcoming-count adge badge-primary badge-pill">1</span></li>
         </ul>
       </div>
@@ -46,12 +47,115 @@
             <label class="custom-control-label" for="customRadio2">Microsoft</label>
           </div>
           <div class="project__add ml-5 mt-3 text-muted">
-            <i class="fas fa-plus mr-1"></i> Add Project
+            <i class="fas fa-plus mr-1 text-danger"></i> Add Project
           </div>
         </div>
       </div>
     </aside>
-    <main class="col-8">Main</main>
+    <!-- ========= Main ============ -->
+    <main class="dashboard  px-5 w-100">
+      <!-- ======== Header ========= -->
+      <header class="d-flex justify-content-between align-items-baseline dashboard_header p-4">
+        <h3>Microverse</h3>
+        <div class="d-flex header__logos">
+          <i class="far fa-comment-alt"></i>
+          <i class="fas fa-user-plus"></i>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </header>
+      <!-- ======== Dashboard ====== -->
+      <div class="d-flex px-4 ">
+        <!-- ===== Col ===== -->
+        <div class="card column">
+          <!-- ===== Card ======= -->
+          <div class="card py-2 px-3">
+            <!-- ======= title===== -->
+            <div class="d-flex justify-content-between align-items-baseline p-1 my-2">
+              <span><b class="h5">Todos </b>1</span>
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+            <!-- ===== Task ====== -->
+            <div class="card shadow-sm p-1 mb-2">
+              <div class="d-flex justify-content-between align-items-baseline p-1">
+                <span> <input type="radio" class="mr-2">Create Layout</span>
+                <i class="fas fa-ellipsis-h text-muted"></i>
+              </div>
+            </div>
+            <!-- ===== Task ====== -->
+            <div class="card shadow-sm p-1 mb-2">
+              <div class="d-flex justify-content-between align-items-baseline p-1">
+                <span> <input type="radio" class="mr-2">Fix Bugs</span>
+                <i class="fas fa-ellipsis-h text-muted"></i>
+              </div>
+            </div>
+            <!-- ======= Add Task ======= -->
+            <div class="column__add__task mt-3 text-muted">
+              <i class="fas fa-plus mr-1 ml-2 "></i> Add Project
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== Col ===== -->
+        <div class="card column ml-3">
+          <!-- ===== Card ======= -->
+          <div class="card py-2 px-3">
+            <!-- ======= title===== -->
+            <div class="d-flex justify-content-between align-items-baseline p-1 my-2">
+              <span><b class="h5">Doing </b>1</span>
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+            <!-- ===== Task ====== -->
+            <div class="card shadow-sm p-1 mb-2">
+              <div class="d-flex justify-content-between align-items-baseline p-1">
+                <span> <input type="radio" class="mr-2">Create Layout</span>
+                <i class="fas fa-ellipsis-h text-muted"></i>
+              </div>
+            </div>
+            <!-- ===== Task ====== -->
+            <div class="card shadow-sm p-1 mb-2">
+              <div class="d-flex justify-content-between align-items-baseline p-1">
+                <span> <input type="radio" class="mr-2">Fix Bugs</span>
+                <i class="fas fa-ellipsis-h text-muted"></i>
+              </div>
+            </div>
+            <!-- ======= Add Task ======= -->
+            <div class="column__add__task mt-3 text-muted">
+              <i class="fas fa-plus mr-1 ml-2 "></i> Add Project
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== Col ===== -->
+        <div class="card column ml-3">
+          <!-- ===== Card ======= -->
+          <div class="card py-2 px-3">
+            <!-- ======= title===== -->
+            <div class="d-flex justify-content-between align-items-baseline p-1 my-2">
+              <span><b class="h5">Done </b>1</span>
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+            <!-- ===== Task ====== -->
+            <div class="card shadow-sm p-1 mb-2">
+              <div class="d-flex justify-content-between align-items-baseline p-1">
+                <span> <input type="radio" class="mr-2">Create Layout</span>
+                <i class="fas fa-ellipsis-h text-muted"></i>
+              </div>
+            </div>
+            <!-- ===== Task ====== -->
+            <div class="card shadow-sm p-1 mb-2">
+              <div class="d-flex justify-content-between align-items-baseline p-1">
+                <span> <input type="radio" class="mr-2">Fix Bugs</span>
+                <i class="fas fa-ellipsis-h text-muted"></i>
+              </div>
+            </div>
+            <!-- ======= Add Task ======= -->
+            <div class="column__add__task mt-3 text-muted">
+              <i class="fas fa-plus mr-1 ml-2 "></i> Add Project
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 
 
