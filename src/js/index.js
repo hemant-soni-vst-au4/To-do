@@ -1,3 +1,4 @@
+import body from './body'
 const headerNav = document.querySelector('#header__nav');
 
 const header = () => {
@@ -47,16 +48,14 @@ nav_div_div_i.setAttribute("role", "button");
 
 let nav_div_div_span = nav_div_div.appendChild(document.createElement("span"));
 nav_div_div_span.setAttribute("class", "mx-2");
-nav_div_div_span.appendChild(document.createElement("i")).setAttribute("class", "fa fa-fw fa-list-ul mr-2")
 nav_div_div_span.innerText = "All List"
-
+nav_div_div_span.appendChild(document.createElement("i")).setAttribute("class", "fa fa-fw fa-list-ul mr-2")
 
 
 let nav_div_div_span1 = nav_div_div.appendChild(document.createElement("span"));
 nav_div_div_span1.setAttribute("class", "mx-2");
-nav_div_div_span1.appendChild(document.createElement("i")).setAttribute("class", "fa fa-fw fa-user mr-2")
 nav_div_div_span1.innerText = "Login"
-
+nav_div_div_span1.appendChild(document.createElement("i")).setAttribute("class", "fa fa-fw fa-user mr-2")
 
 
 
@@ -64,6 +63,7 @@ nav_div_div_span1.innerText = "Login"
 }
 
 header()
+body()
 
 
 
