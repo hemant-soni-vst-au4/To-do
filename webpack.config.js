@@ -1,17 +1,17 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index',
+  entry: './src/js/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'index.js',
+    filename: 'main.js',
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader', 'eslint-loader'],
+        use: ['babel-loader'],
       },
       {
         test: /\.s[ac]ss$/i,

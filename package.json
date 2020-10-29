@@ -33,11 +33,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "compile": "node-sass src/scss/main.scss src/css/style.css -w",
+    "compile": "node-sass src/scss/main.scss dist/style.css -w",
     "start": "webpack --watch",
-    "prebuild": "rimraf ./dist && mkdir dist",
-    "build": "webpack",
-    "postbuild": "http-server ./build"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
