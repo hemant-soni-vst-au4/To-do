@@ -16,13 +16,17 @@ body {
   min-width: fit-content;
   overflow-y: scroll; }
 
-.fa-plus {
-  color: #db4c3f; }
-
 .aside {
   background-color: #eee;
   font-size: 1.3rem;
-  min-width: 22rem; }
+  min-width: 22rem;
+  transition: all .3s ease-in-out; }
+  .aside__project_header:active .fa-chevron-right {
+    transform: rotate(90deg);
+    transition: .2s ease; }
+
+.dashboard .fa-plus {
+  color: #db4c3f; }
 
 .header h3 {
   font-weight: 700; }
@@ -36,3 +40,7 @@ body {
 .column {
   width: 20rem;
   min-width: 250px; }
+
+.navbar {
+  background-color: #db4c3f;
+  padding: 0 3rem; }

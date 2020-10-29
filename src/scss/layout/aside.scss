@@ -2,4 +2,11 @@
   background-color: $color-grey-light;
   font-size: 1.3rem;
   min-width: 22rem;
+  transition:all .3s ease-in-out;
+  &__project_header:active {
+    .fa-chevron-right{
+      transform: rotate(90deg);
+      transition: .2s ease;
+    }
+  }
 }
