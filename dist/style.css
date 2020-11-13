@@ -44,3 +44,11 @@ body {
 .navbar {
   background-color: #db4c3f;
   padding: 0 3rem; }
+
+.project__add:hover {
+    cursor: pointer;
+}
+
+.column__add__task:hover {
+  cursor: pointer;
+}

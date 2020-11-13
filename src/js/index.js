@@ -65,7 +65,17 @@ nav_div_div_span1.appendChild(document.createElement("i")).setAttribute("class",
 header()
 body()
 
+document.querySelector(".project__add").addEventListener("click", (e) => {
+e.preventDefault()
+    alert("hello")
+})
 
+document.querySelectorAll(".column__add__task").forEach(item => {
+    item.addEventListener("click", (e) => {
+        e.preventDefault();
+        alert("hello")
+    })
+})
 
 
 

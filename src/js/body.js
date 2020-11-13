@@ -34,7 +34,7 @@ data-target="#collapseOne">
   <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
   <label class="custom-control-label" for="customRadio2">Microsoft</label>
 </div>
-<div class="project__add ml-5 mt-3 text-muted">
+<div class="project__add ml-5 mt-3">
   <i class="fas fa-plus mr-1 text-danger"></i> Add Project
 </div>`
 
@@ -73,8 +73,8 @@ main_div_div_div.innerHTML =`
                 <i class="fas fa-ellipsis-h text-muted"></i>
               </div>
             </div>
-            <div class="column__add__task mt-3 text-muted">
-              <i class="fas fa-plus mr-1 ml-2 "></i> Add Project
+            <div class="column__add__task mt-3">
+              <i class="fas fa-plus mr-1 ml-2 "></i> Add Task
             </div>`
 
 let main_div_div1 = section_div_main_div.appendChild(document.createElement("div"));
@@ -98,8 +98,8 @@ main_div_div1.innerHTML = `<div class="card py-2 px-3">
   </div>
 </div>
 
-<div class="column__add__task mt-3 text-muted">
-  <i class="fas fa-plus mr-1 ml-2 "></i> Add Project
+<div class="column__add__task mt-3">
+  <i class="fas fa-plus mr-1 ml-2 "></i> Add Task
 </div>
 </div>`
 
@@ -122,8 +122,8 @@ main_div_div2.innerHTML = `<div class="card py-2 px-3">
     <i class="fas fa-ellipsis-h text-muted"></i>
   </div>
 </div>
-<div class="column__add__task mt-3 text-muted">
-  <i class="fas fa-plus mr-1 ml-2 "></i> Add Project
+<div class="column__add__task mt-3">
+  <i class="fas fa-plus mr-1 ml-2 "></i> Add Task
 </div>
 </div>`
 }
