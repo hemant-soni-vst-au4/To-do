@@ -46,9 +46,9 @@ This project consists in a application that users can create projects and set a 
 Download or clone the [repo here](https://github.com/hemant-soni-vst-au4/To-do), enter the directory in the terminal and run the commands:
 
 - `npm i`
-- `npm run bundle`
-- `npm run start`
-  Your default browser should open the app at the localhost:8080
+- `open index.html file in dist folder`
+- `run with live version`
+  
 
 ### Built With
 
