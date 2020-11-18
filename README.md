@@ -43,7 +43,7 @@ This project consists in a application that users can create projects and set a 
 
 ## Installation
 
-Download or clone the [repo here](https://github.com/uryelah/Microverse-604-todo-list/tree/todolist.git), enter the directory in the terminal and run the commands:
+Download or clone the [repo here](https://github.com/hemant-soni-vst-au4/To-do), enter the directory in the terminal and run the commands:
 
 - `npm i`
 - `npm run bundle`
