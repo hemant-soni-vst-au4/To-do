@@ -27,7 +27,7 @@
   },
   "scripts": {
     "compile": "node-sass src/scss/main.scss dist/style.css -w",
-    "start": "webpack --watch --open",
+    "start": "webpack --watch",
     "build": "webpack"
   },
   "repository": {
