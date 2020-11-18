@@ -66,7 +66,7 @@ header()
 body()
 
 document.querySelector(".project__add").addEventListener("click", (e) => {
-e.preventDefault()
+    e.preventDefault()
     alert("hello")
 })
 
